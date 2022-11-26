@@ -9,11 +9,10 @@
 </header>
 
 <style>
-    header{
-        z-index: 999;
+    header{ 
         border-bottom: 4px solid  white;
         margin: .1em 1em;
-        transform: translateY(30%);
+        transform: translateY(29%);
     }
 
     nav {
@@ -25,6 +24,16 @@
     h1{
         color: white;
         font-size: 4em;
+    }
+
+    @media(min-width:70rem){
+        header{
+            transform: translateY(4%);
+        }
+        h1{
+            font-size: 10em;
+        }
+    
     }
 
 </style>

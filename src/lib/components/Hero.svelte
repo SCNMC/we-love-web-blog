@@ -29,4 +29,13 @@
         position: absolute;
         color: white;
     } */
+
+    @media(min-width:70rem){
+        section{
+        margin-top: -5em;
+        }
+        h2{
+            font-size: 3em;
+        }
+    }
 </style>
