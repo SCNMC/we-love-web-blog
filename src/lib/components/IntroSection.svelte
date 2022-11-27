@@ -23,12 +23,9 @@
 
 
 
-   @media (min-width:70rem){
-    h1{
-        font-size: 2em;
-    }
+   @media (min-width:50rem){
     section{
-        padding: 1em 4em;
+        margin: 1em 1em;
         margin-top: 4em;
        
     }
@@ -38,6 +35,16 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 1.2em;
    }
+
+    }
+    @media (min-width:70rem){
+        h1{
+        font-size: 2em;
+    }
+        section{
+            margin: 1em 6em;
+            padding: 3em 5em;
+        }
 
     }
    

@@ -1,5 +1,9 @@
+<script>
+    export let heroName;
+</script>
+
 <section>
-    <h2>SHAURI MAIGUA</h2>
+    <h2>{heroName}</h2>
 </section>
 
 
